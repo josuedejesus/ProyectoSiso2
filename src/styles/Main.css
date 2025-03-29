@@ -1,0 +1,38 @@
+.hero-container {
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    padding: 2rem;
+    background-color: #a235f0;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}
+  
+.created-by {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+  
+.hero-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+  
+.hero-subtitle {
+    font-size: 1.2rem;
+    color: #e2d8ff;
+    margin-bottom: 2rem;
+}
+  
+.hero-buttons {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}  
